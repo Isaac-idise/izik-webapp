@@ -12,8 +12,8 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         { 
             question: "What’s Isaac’s favorite hobby?", 
-            answer: "Playing games",
-            options: ["Reading", "Playing games", "Swimming", "Cooking"]
+            answer: "Gaming",
+            options: ["Reading", "Gaming", "Swimming", "Cooking"]
         },
         { 
             question: "What’s the best way you can gift Isaac?", 
@@ -22,8 +22,8 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         { 
             question: "What was Isaac’s childhood dream?", 
-            answer: "An Astronaut",
-            options: ["Doctor", "Pilot", "An astronaut", "Engineer"]
+            answer: "Astronaut",
+            options: ["Doctor", "Pilot", "Astronaut", "Engineer"]
         },
         { 
             question: "What’s Isaac’s favorite color?", 
