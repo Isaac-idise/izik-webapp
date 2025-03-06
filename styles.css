@@ -1,4 +1,7 @@
-/* Reset default styles for consistency */
+/* Import sharper, modern fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Pacifico&display=swap');
+
+/* Reset default styles */
 * {
     margin: 0;
     padding: 0;
@@ -6,25 +9,27 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif; /* Clean, readable font for body */
+    font-family: 'Montserrat', sans-serif; /* Sharper, clearer font */
     text-align: center;
-    background-color: #ffebee; /* Light pink background for a festive feel */
-    color: #333;
-    line-height: 1.6;
+    background-color: #1e272e; /* Dark gray-blue for masculinity */
+    color: #ecf0f1; /* Light gray for contrast */
+    line-height: 1.8; /* Improved readability */
+    font-size: 16px; /* Base size for clarity */
 }
 
 /* Header styling */
 header {
-    background-color: #ff4444; /* Bright red for Isaac’s favorite color */
+    background-color: #2c3e50; /* Deep blue-gray */
     padding: 20px 0;
-    color: white;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: #ecf0f1;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 header h1 {
-    font-family: 'Pacifico', cursive; /* Playful, cool font for headings */
-    font-size: 2.5rem;
+    font-family: 'Pacifico', cursive; /* Playful but bold */
+    font-size: 2.2rem; /* Slightly smaller for mobile clarity */
     margin-bottom: 10px;
+    color: #f39c12; /* Vibrant orange accent */
 }
 
 nav {
@@ -34,14 +39,14 @@ nav {
 nav a {
     margin: 0 15px;
     text-decoration: none;
-    color: white;
-    font-weight: bold;
+    color: #ecf0f1;
+    font-weight: 700; /* Bolder for masculinity */
     font-size: 1.1rem;
-    transition: color 0.3s ease; /* Smooth hover effect */
+    transition: color 0.3s ease;
 }
 
 nav a:hover {
-    color: #ffeb3b; /* Bright yellow for hover effect */
+    color: #1abc9c; /* Teal for vibrant hover */
 }
 
 /* Main content styling */
@@ -53,15 +58,15 @@ main {
 
 h2, h3 {
     font-family: 'Pacifico', cursive;
-    color: #ff4444; /* Red for headings to match Isaac’s favorite color */
+    color: #f39c12; /* Orange for vibrancy */
     margin-bottom: 20px;
-    font-size: 2rem;
+    font-size: 1.8rem; /* Adjusted for mobile */
 }
 
 p {
     font-size: 1.1rem;
     margin-bottom: 20px;
-    color: #555;
+    color: #bdc3c7; /* Softer gray for readability */
 }
 
 /* Gallery styling */
@@ -76,21 +81,21 @@ p {
 .gallery img {
     width: 200px;
     height: 200px;
-    object-fit: cover; /* Ensures images fit nicely without distortion */
-    border-radius: 10px; /* Rounded corners for a modern look */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    transition: transform 0.3s ease; /* Animation for hover */
+    object-fit: cover;
+    border-radius: 5px; /* Less rounded for a sharper look */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Stronger shadow */
+    transition: transform 0.3s ease;
 }
 
 .gallery img:hover {
-    transform: scale(1.1); /* Slightly enlarge images on hover */
+    transform: scale(1.05); /* Subtle scale for vibrancy */
 }
 
 /* Video styling */
 video {
     max-width: 100%;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     margin-bottom: 20px;
 }
 
@@ -98,14 +103,14 @@ video {
 .quiz-question {
     margin: 20px 0;
     padding: 15px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #34495e; /* Darker blue-gray */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     text-align: left;
 }
 
 .quiz-question p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     margin-bottom: 10px;
 }
 
@@ -113,38 +118,40 @@ video {
     display: block;
     margin: 5px 0;
     font-size: 1rem;
+    color: #ecf0f1;
 }
 
 #submit-button {
-    background-color: #ff4444; /* Red button */
-    color: white;
+    background-color: #e67e22; /* Vibrant orange */
+    color: #fff;
     border: none;
     padding: 10px 20px;
     font-size: 1.1rem;
+    font-weight: 700;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 #submit-button:hover {
-    background-color: #d32f2f; /* Darker red on hover */
+    background-color: #d35400; /* Darker orange */
 }
 
 /* Result page styling */
 .result-container {
-    background: white;
+    background: #34495e;
     padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     max-width: 600px;
     width: 90%;
     margin: 0 auto;
 }
 
 .result-container h1 {
-    color: #ff4444;
+    color: #f39c12;
     font-family: 'Pacifico', cursive;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .result-container p {
@@ -152,14 +159,22 @@ video {
     margin-top: 10px;
 }
 
-/* Responsive design */
+/* Responsive design for mobile */
 @media (max-width: 768px) {
     header h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     nav a {
         margin: 0 10px;
+        font-size: 1rem;
+    }
+
+    h2, h3 {
+        font-size: 1.5rem;
+    }
+
+    p {
         font-size: 1rem;
     }
 
@@ -171,7 +186,9 @@ video {
     video {
         width: 100%;
     }
-}
 
-/* Add Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Open+Sans&display=swap');
+    #submit-button {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+}
